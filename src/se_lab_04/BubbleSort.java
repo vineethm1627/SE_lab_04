@@ -32,7 +32,7 @@ public class BubbleSort {
 		System.out.println("Enter the size of the array : ");
 		int size = input.nextInt();
 		
-		int arr[] = new int[size];
+		int arr[] = new int[size]; // creating a dynamic array.
 		
 		System.out.println("\nEnter the elements of the array :");
 		for(int i = 0; i < size; i++)
